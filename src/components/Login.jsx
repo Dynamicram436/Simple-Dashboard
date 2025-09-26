@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 const Login = () => {
   const navigate = useNavigate();
 
@@ -14,29 +13,27 @@ const Login = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCredentials({ ...credentials, [name]: value });
-    setError(""); // 清除错误信息
+    setError("");
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // 基本验证
     if (!credentials.username.trim()) {
       setError("请输入用户名");
       return;
     }
-    
+
     if (!credentials.password.trim()) {
       setError("请输入密码");
       return;
     }
-    
-    localStorage.setItem("formdata", credentials);
-    console.log(JSON.stringify(credentials))
 
-    // 这里可以添加更多的验证逻辑
-    
-    navigate('/dashboard')
+    localStorage.setItem("formdata", credentials);
+    console.log(JSON.stringify(credentials));
+
+    navigate("/dashboard");
   };
 
   return (
