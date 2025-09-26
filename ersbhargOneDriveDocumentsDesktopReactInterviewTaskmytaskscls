@@ -1,0 +1,48 @@
+[33mcommit 5f5887379f47037cb8d8746452d715ec151baa2f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:37:32 2025 +0530
+
+    changed code
+
+[33mcommit 4cdfeb6ebd96517657638fd8d49aa82e66354df3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:18:13 2025 +0530
+
+    merged two branches
+
+[33mcommit 7c66da78b5d36ef68ffeb96f92597d12bd2114e8[m
+Merge: 1d23b1a 8b2959e
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:17:50 2025 +0530
+
+    merged
+
+[33mcommit 1d23b1a5e6db698532c87666e2b5ff64a1f4b745[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:10:14 2025 +0530
+
+    removed all comments in login.jsx
+
+[33mcommit 0bf5fcff286d12c11c13bb95ee9afb7f9b243b51[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:06:19 2025 +0530
+
+    removed comments
+
+[33mcommit 8b2959e81f0ea5954959ce9bc2c2d4fed6bd4b5e[m[33m ([m[1;31morigin/feature1[m[33m, [m[1;32mfeature1[m[33m)[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 16:00:16 2025 +0530
+
+    removed comments
+
+[33mcommit cb19fc07fed8ea4e95fcbeb2fd6da846662f229a[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 15:50:16 2025 +0530
+
+    removed duplicat consolelog
+
+[33mcommit 42300df2bb8f8aa969cda3eabed79674f195a1ef[m
+Author: Dynamicram436 <115802967+Dynamicram436@users.noreply.github.com>
+Date:   Fri Sep 26 15:03:26 2025 +0530
+
+    Version 1
