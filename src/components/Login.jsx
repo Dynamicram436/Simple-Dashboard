@@ -35,7 +35,7 @@ const Login = () => {
     console.log(JSON.stringify(credentials))
 
     // 这里可以添加更多的验证逻辑
-    console.log(credentials);
+    
     navigate('/dashboard')
   };
 
