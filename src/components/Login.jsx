@@ -19,7 +19,6 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // 基本验证
     if (!credentials.username.trim()) {
       setError("请输入用户名");
       return;
