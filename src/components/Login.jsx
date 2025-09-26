@@ -13,12 +13,21 @@ const Login = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCredentials({ ...credentials, [name]: value });
+<<<<<<< HEAD
     setError("");
+=======
+    setError(""); 
+>>>>>>> feature1
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+<<<<<<< HEAD
 
+=======
+    
+    
+>>>>>>> feature1
     if (!credentials.username.trim()) {
       setError("请输入用户名");
       return;
@@ -29,10 +38,16 @@ const Login = () => {
       return;
     }
 
+<<<<<<< HEAD
     localStorage.setItem("formdata", credentials);
     console.log(JSON.stringify(credentials));
 
     navigate("/dashboard");
+=======
+    
+    
+    navigate('/dashboard')
+>>>>>>> feature1
   };
 
   return (
